@@ -1,0 +1,45 @@
+- generic [ref=f5e4]:
+  - generic [ref=f5e6]:
+    - img "company-branding" [ref=f5e8]
+    - generic [ref=f5e9]:
+      - heading "Login" [level=5] [ref=f5e10]
+      - generic [ref=f5e11]:
+        - generic [ref=f5e12]:
+          - alert [ref=f5e13]:
+            - generic [ref=f5e14]:
+              - generic [ref=f5e15]: 
+              - paragraph [ref=f5e16]: Invalid credentials
+          - generic [ref=f5e18]:
+            - paragraph [ref=f5e19]: "Username : Admin"
+            - paragraph [ref=f5e20]: "Password : admin123"
+        - generic [ref=f5e21]:
+          - generic [ref=f5e23]:
+            - generic [ref=f5e24]:
+              - generic [ref=f5e25]: 
+              - generic [ref=f5e26]: Username
+            - textbox "Username" [active] [ref=f5e28]: Admin
+          - generic [ref=f5e30]:
+            - generic [ref=f5e31]:
+              - generic [ref=f5e32]: 
+              - generic [ref=f5e33]: Password
+            - textbox "Password" [ref=f5e35]: admin123
+          - button "Login" [ref=f5e37] [cursor=pointer]
+          - paragraph [ref=f5e39] [cursor=pointer]: Forgot your password?
+      - generic [ref=f5e40]:
+        - generic [ref=f5e41]:
+          - link [ref=f5e42] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/orangehrm/mycompany/
+          - link [ref=f5e45] [cursor=pointer]:
+            - /url: https://www.facebook.com/OrangeHRM/
+          - link [ref=f5e48] [cursor=pointer]:
+            - /url: https://twitter.com/orangehrm?lang=en
+          - link [ref=f5e51] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/OrangeHRMInc
+        - generic [ref=f5e54]:
+          - paragraph [ref=f5e55]: OrangeHRM OS 5.9
+          - paragraph [ref=f5e56]:
+            - text: © 2005 - 2026
+            - link "OrangeHRM, Inc" [ref=f5e57] [cursor=pointer]:
+              - /url: http://www.orangehrm.com
+            - text: . All rights reserved.
+  - img "orangehrm-logo" [ref=f5e59]

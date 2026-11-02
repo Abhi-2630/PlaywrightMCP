@@ -1,0 +1,10 @@
+1. Navigates to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+2. Login to OrangeHRM with username "Admin" and Password "admin123".
+   *wait for dashboard to be visible after login.
+3. Click on "PIN" in the sidebar menu.
+4. Verify that the "Employee Information" 
+5. Check that both "Add" and "Search" button are visible on the page.
+6. Click the **user icon" in the top right corner.
+7. Click the "Logout" option.
+8. Verify that the login page is displayed again.
+9. close the browser.

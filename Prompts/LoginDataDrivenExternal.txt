@@ -1,0 +1,25 @@
+Generate a Playwright test in Javascript using @playwright/tests that performs data-driven
+
+Scenario : login validation on https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Requirements:
+1. Read test data an external CSV file called "loginData.csv" located in the "test-data" folder
+   The file has the following columns : username, password, Expected.
+   Example rows:
+     Admin, admin123, Dashboard
+     fekuser, fekpass, Invalid credentials
+     EssUser1, ess123, Invalid credentials
+
+2. For each row ion the dataset:
+    - Navigate to the OrangeHRM login page
+    - Enter the username and password from the dataset
+    - Click the login button
+    - Verify the Expected Result:
+           - If Expected = "Dashboard", check that the Dashboard page is visible
+           - If Expected = "Invalid credentials", check that the error message "Invalid credentials" is displayed
+
+3. Implement iteration so that all rows in the dataset are tested automatically within one test suite.
+
+4. Log pass/fail Results for each dataset entry in the test output.
+
+5. close the browser after all tests complete.

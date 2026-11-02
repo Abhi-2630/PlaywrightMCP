@@ -1,0 +1,8 @@
+Navigates to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+1. Login to OrangeHRM with username "Admin" and Password "admin123".
+2. Navigates to the "PIM" module using left sidebar menu
+3. Click on "Add"
+4. Enter first name as "Abhishek", Middle Name as "Bhimrao" and Last Name as "Patil"
+5. Click "Save"
+6. Verify that the Employee profile page is displayed
+7. Confim that "Abhishek Bhimrao Patil" is show on the top

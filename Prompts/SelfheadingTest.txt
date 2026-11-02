@@ -1,0 +1,12 @@
+Generate a Playwright test in Javascript that : 
+1. Opens https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2. Ask my permission to execute next steps
+3. Logs in with Admin / admin123
+        -If the username field locator is missing, try alternatives:
+          * input with placeholder "Username"
+          * lable text "Username"
+          * first text field before "password"
+        - Do the same for password and login button
+4. Verifies the Dashboard loads
+5. Click on "Uesr" icon and select Logs out.
+Ensure the script adapts if locators change.          

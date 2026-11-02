@@ -1,0 +1,12 @@
+Generate a Playwright test in Javascript that:
+1. Opens https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2. Runs login tests using the following dataset:
+   - Username : Admin, Password : admin123, Expected : Dashboard visible
+   - Username : fakeuser, Password : fakepass, Expected : Error "Invalid Credentials"
+   - Username : ESSUser1, Password : ess123, Expected : Error "Invalid Credentials"
+3. For each test:
+   - Naviagte to login page
+   - Enter Credentials
+   - Verify Expected Result
+   - Click on "User" icon and then click on logout
+4. Close the browser after all tests   

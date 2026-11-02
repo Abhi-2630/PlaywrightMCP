@@ -1,0 +1,8 @@
+Genertae a playwright test for the following Scenario:
+1. Navigates to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+2. Login to OrangeHRM with username "Admin" and Password "admin123".
+3. Go to the "Buzz" module using left sidebar menu
+4. Verify the the "Latest Posts" section is visible.
+5. Check that there's a text box to post a new message.
+6. Enter a message like "Excited for Testing!" and Click "Post" button
+7. Verify that the post appears in the feed as a recent Post.
